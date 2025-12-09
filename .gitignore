@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Machine Learning Specific Files
+# Trained Models
+*.pkl
+*.pickle
+*.h5
+*.joblib
+*.bin
+*.model
+*.tf
+*.pth
+
+# Large Data Files
+# Ignore common data formats to prevent committing large files.
+*.csv
+*.tsv
+*.xlsx
+*.feather
+*.parquet
+/data/
