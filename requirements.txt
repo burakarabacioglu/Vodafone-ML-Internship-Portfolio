@@ -28,6 +28,7 @@ numpy @ file:///C:/miniconda3/conda-bld/numpy_and_numpy_base_1763980696655/work/
 packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049098810/work
 pandas @ file:///C:/miniconda3/conda-bld/pandas_1762332435977/work/dist/pandas-2.3.3-cp314-cp314-win_amd64.whl#sha256=ac6b8c30836d425b7de9199ad67d79b5d4d36663122fd5a70d81bfc894c0da42
 parso @ file:///C:/miniconda3/conda-bld/parso_1762781931209/work
+patsy @ file:///C:/Users/dev-admin/buildout/croot/patsy_1761949626691/work
 pillow @ file:///C:/Users/dev-admin/buildout/croot/pillow_1762547797675/work
 platformdirs @ file:///C:/miniconda3/conda-bld/platformdirs_1762356618739/work
 prompt_toolkit @ file:///C:/miniconda3/conda-bld/prompt-toolkit_1761745044554/work
@@ -48,6 +49,7 @@ setuptools==80.9.0
 sip @ file:///C:/Users/dev-admin/buildout/croot/sip_1761943990339/work
 six @ file:///C:/Users/dev-admin/buildout/croot/six_1759954493303/work
 stack_data @ file:///C:/Users/dev-admin/buildout/croot/stack_data_1759957300617/work
+statsmodels @ file:///C:/Users/dev-admin/buildout/croot/statsmodels_1762555969200/work
 threadpoolctl @ file:///C:/miniconda3/conda-bld/threadpoolctl_1764361788517/work
 tornado @ file:///C:/Users/dev-admin/buildout/croot/tornado_1759954992390/work
 traitlets @ file:///C:/Users/dev-admin/buildout/croot/traitlets_1759954525269/work
