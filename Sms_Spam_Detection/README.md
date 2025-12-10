@@ -34,14 +34,19 @@ The raw text data was transformed into numerical features using the following se
 
 The analysis compared a simple baseline model (Multinomial Naive Bayes) against a robust ensemble method (Random Forest), both integrated into a scikit-learn `Pipeline`.
 
+### Final Performance Metrics (Spam Class)
+
 | Model | Key Metric (Precision) | Recall | F1-Score |
 | :--- | :--- | :--- | :--- |
-| **Multinomial Naive Bayes (Baseline)** | **[Insert Naive Bayes Precision]** | **[Insert Naive Bayes Recall]** | **[Insert Naive Bayes F1]** |
-| **Random Forest (Final Model)** | **[Insert Random Forest Precision]** | **[Insert Random Forest Recall]** | **[Insert Random Forest F1]** |
+| **Multinomial Naive Bayes (Baseline)** | 1.00 | 0.73 | 0.85 |
+| **Random Forest (Final Model)** | **1.00** | **0.83** | **0.91** |
 
 ### Final Model Justification
 
-The **Random Forest Classifier** was selected as the final model due to its superior performance in achieving a high **Precision score** of **\[Insert Final Precision]** while maintaining a strong **Recall** of **\[Insert Final Recall]**.
+The **Random Forest Classifier** was selected as the final model due to its superior performance.
+
+1.  **High Precision Maintained:** Both models achieved **perfect Precision (1.00)**, meaning that **no legitimate customer messages were incorrectly flagged as spam** (zero False Positives)—a critical business requirement.
+2.  **Increased Spam Capture (Recall):** The Random Forest model demonstrated a **significantly higher Recall** (**0.83** compared to the baseline's 0.73), ensuring that a larger percentage of the *actual* spam messages were correctly caught.
 
 * **High Precision** is critical for this problem because it minimizes **False Positives** (flagging a user's legitimate message as spam), which is crucial for retaining user satisfaction.
 
