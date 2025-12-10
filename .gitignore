@@ -226,3 +226,7 @@ __marimo__/
 *.feather
 *.parquet
 /data/
+
+
+# Ignore large raw data files, only keep the small, clean version if created.
+SMS_Spam_Detection/data/SMSSpamCollection.txt
